@@ -3,9 +3,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class oscarCSV {
-    public boolean isbig() {
-        return false;
-    }
 
     public static void main(String[] args) {
 
@@ -30,7 +27,7 @@ public class oscarCSV {
 
             youngage = ageList.get(0);
 
-            oldage = ageList.get(88);
+            oldage = ageList.get(ageList.size() - 1);
 
             while ((line = cr.readLine()) != null) {
                 String[] arr = line.split(",");
