@@ -1,3 +1,5 @@
+package avg_air_travel;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
